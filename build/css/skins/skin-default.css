@@ -162,7 +162,7 @@ a:hover, a:active {
 /* Form Color */
 /*------------------------------------------------------------*/
 input, input[type="text"], input[type="search"], input[type="email"], input[type="tel"], input[type="number"], input[type="password"], input[type="radio"], input[type="checkbox"], textarea, select {
-    color: #333;
+    color:#D5006C;
 }
 
     /*input[type="text"]:hover, input[type="search"]:hover, input[type="email"]:hover, input[type="tel"]:hover, input[type="number"]:hover, input[type="radio"]:hover, input[type="checkbox"]:hover, input[type="password"]:hover, textarea:hover, select:hover,*/
@@ -199,12 +199,13 @@ a[href]:hover,
 .product-list-view .product-item .product-item-content .tag,
 a.tag:hover, .tag a:hover,
 .alert-info:before, .alert-message:before {
-    color: #27af9a;
+    color: #060204;
+    text-shadow: 0 0 8px#D5006C, 0 0 16px #D5006C;
 }
 
 .important-primary-color,
 .widget_nav_menu .sub-menu .is-active > a, .widget_nav_menu li a:hover {
-    color: #27af9a !important;
+    color: #27af9a ;
 }
 
 .hover--dark:hover {

@@ -1612,7 +1612,7 @@ ul:last-child {
     }
 
     .header-topbar .topbar-component:hover a, .header-topbar.topbar--dark .topbar-component:hover a {
-        opacity: 1 !important;
+        opacity: 1;
     }
 
     .header-topbar .topbar-component.offer-hignlight > *, .header-topbar.topbar--dark .topbar-component.offer-hignlight > * {
@@ -1793,8 +1793,8 @@ ul:last-child {
                     /*display: flex;
                     display: flexbox;
                     display: -ms-flexbox;*/
-                    -ms-flex-align: center !important;
-                    align-items: center !important;
+                    -ms-flex-align: center ;
+                    align-items: center ;
                 }
 }
 
@@ -2908,7 +2908,7 @@ ul:last-child {
 
     .label-bar .offer-hignlight a:hover {
         color: inherit;
-        text-decoration: underline;
+        /* text-decoration: underline; */
     }
 
 
@@ -3140,7 +3140,7 @@ ul:last-child {
 
     .breadcrumb-link span:not(:last-child) a:hover {
         color: inherit;
-        text-decoration: underline;
+        /* text-decoration: underline; */
     }
 
 /*------------------------------------------------------------*/
@@ -3466,7 +3466,7 @@ ul:last-child {
         }
 
         .product-item .tag a:hover {
-            text-decoration: underline;
+            /* text-decoration: underline; */
         }
 
 .product-labels {
@@ -3985,7 +3985,7 @@ ul:last-child {
 
     .portfolio-box.portfolio-overlay .portfolio-item-content .portfolio-title, .portfolio-box.portfolio-overlay .portfolio-item-content .portfolio-title > a,
     .portfolio-box.portfolio-overlay .portfolio-item-content .portfolio-type-tag, .portfolio-box.portfolio-overlay .portfolio-item-content .portfolio-type-tag > a {
-        color: #fff !important;
+        color: #fff ;
     }
 
     .portfolio-box.portfolio-overlay .portfolio-item-content .portfolio-title {
@@ -4199,7 +4199,7 @@ ul:last-child {
                 }
 
                 .product-filter li a.active {
-                    border-color: #27af9a;
+                    /* border-color: #27af9a; */
                 }
 
 /*------------------------------------------------------------*/
@@ -4540,7 +4540,7 @@ ul:last-child {
             }
 
                 .pagination-numbers li a:hover, .pagination-numbers li span:hover, .pagination-numbers li span.current, .pagination-numbers li a.current {
-                    color: #fff;
+                    /* color: #fff; */
                 }
 
                 .pagination-numbers li a.dots, .pagination-numbers li span.dots {
@@ -5591,7 +5591,7 @@ input.quantity[type=number]::-webkit-outer-spin-button {
         }
 
             .product-Content-tabs .product-Content-toggle a:not([aria-expanded="false"]) {
-                color: #333 !important;
+                color: #333 ;
             }
 
 @media all and (min-width: 992px) {
@@ -6261,11 +6261,11 @@ form .lost_password {
 }
 /*Copyright*/
 .footer-copyright, .footer-copyright a {
-    opacity: 1 !important;
+    opacity: 1 ;
 }
 
     .footer-copyright a:hover {
-        text-decoration: underline;
+        /* text-decoration: underline; */
     }
 
 /*Footer Theme*/
@@ -6276,7 +6276,7 @@ form .lost_password {
 
 .footer p, .footer a, .footer i, .footer li span {
     color: #fff;
-    opacity: 0.6;
+    opacity: 0.8;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -6301,5 +6301,5 @@ form .lost_password {
 }
 
 .footer .social a:hover, .footer .links li a:hover, .footer .links li a:hover {
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
