@@ -1,0 +1,17 @@
+a {
+  text-decoration: none !important;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #0a0306; 
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #D5006C; 
+    /* text-decoration: underline; */
+    text-shadow: 0 0 8px#D5006C, 0 0 16px #D5006C;
+  }
+
+  h6 {
+    color: #D5006C !important;
+     /* font-weight: bold; */
+  }

@@ -1,0 +1,69 @@
+.my-account-box {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+  border: 1px solid #f0f0f0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.my-account-box h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 30px;
+}
+
+.form-field-wrapper label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control {
+  background: #f8f9ff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 12px 14px;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+input[type="checkbox"] + span {
+  margin-left: 8px;
+  font-size: 15px;
+  color: #444;
+}
+
+.btn--primary {
+  background-color: #e91e63; /* pink */
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.btn--primary:disabled {
+  background-color: #f8a3c1;
+  cursor: not-allowed;
+}
+
+.btn--primary:hover:enabled {
+  background-color: #d81b60;
+}
+
+a {
+  color: #e91e63;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.lost_password {
+  text-align: right;
+}

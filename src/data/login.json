@@ -1,0 +1,28 @@
+{
+    "users": [
+    {
+      "id": "47b1",
+      "username": "anish shitole",
+      "email": "anishshitole77@gmail.com",
+      "password": "$Anish77$",
+      "phone": "7414913249",
+      "address": "Near by hanuman tempal",
+      "state": "maha",
+      "dist": "pune",
+      "tal": "dound",
+      "confirm_password": "$Anish77$"
+    },
+    {
+      "id": "7adb",
+      "username": "Anish",
+      "email": "Admin77@gmail.com",
+      "password": "Admin@123",
+      "phone": "7414913249",
+      "address": "Near by hanuman tempal",
+      "state": "maha",
+      "dist": "pune",
+      "tal": "dound",
+      "confirm_password": "Admin@123"
+    }
+  ]
+}

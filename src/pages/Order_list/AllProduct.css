@@ -1,0 +1,18 @@
+/* Optional: Add custom responsiveness for mobile devices */
+@media screen and (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+
+  .breadcrumb-title {
+    font-size: 22px;
+  }
+
+  .breadcrumb-link a {
+    font-size: 14px;
+  }
+
+  img.img-fluid {
+    max-width: 60px !important;
+  }
+}

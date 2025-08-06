@@ -1,0 +1,71 @@
+
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+a {
+  font-family: 'Comic Neue', cursive, sans-serif  !important;
+}
+
+/* 
+body {
+  font-family: 'Poppins', sans-serif !important;
+} */
+
+
+.App-logo {
+  height: 80px;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Optional responsive tweaks */
+@media (max-width: 600px) {
+  .App-logo {
+    height: 60px;
+  }
+
+  .App-header {
+    font-size: 16px;
+    padding: 15px;
+  }
+}
+
+.button {
+  text-decoration: none !important;
+  font-family: 'Comic Sans MS', cursive, sans-serif !important;
+  color: #1b031b !important;
+  border-color: black !important;
+ 
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  color: #03140e !important;
+  background-color: #eb3590 !important;
+  border-color: black !important;
+
+  text-shadow: 0 0 8px#eed9e4, 0 0 16px #f6eff2 !important;
+}
