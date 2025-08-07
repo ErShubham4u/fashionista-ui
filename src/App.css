@@ -5,9 +5,18 @@
   font-family: sans-serif;
 }
 
+/* Default font for mobile (normal font) */
 a {
-  font-family: 'Comic Neue', cursive, sans-serif  !important;
+  font-family: sans-serif !important;
 }
+
+/* For laptop/desktop view (screen width 768px se zyada) */
+@media screen and (min-width: 768px) {
+  a {
+    font-family: 'Comic Neue', cursive, sans-serif !important;
+  }
+}
+
 
 /* 
 body {
