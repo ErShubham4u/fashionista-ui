@@ -1,4 +1,4 @@
-const BASE_URL = "https://fashionista-db.onrender.com/sadeeData";
+const BASE_URL = "https://fashionista-db-8ynj.onrender.com/sadeeData";
 
 export const authService_sadee = {
   // GET all

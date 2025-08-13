@@ -1,4 +1,4 @@
-const BASE_URL = "https://fashionista-db.onrender.com/contactUs";
+const BASE_URL = "https://fashionista-db-8ynj.onrender.com/contactUs";
 
 export const authService_constUs = {
   insertContactInfo: async (e) => {

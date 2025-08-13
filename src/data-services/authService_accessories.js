@@ -1,4 +1,4 @@
-const BASE_URL = "https://fashionista-db.onrender.com/accessories"; 
+const BASE_URL = "https://fashionista-db-8ynj.onrender.com/accessories"; 
 
 export const authService_accessories = {
   getAccessories: async () => {

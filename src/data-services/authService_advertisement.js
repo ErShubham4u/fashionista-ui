@@ -1,4 +1,4 @@
-const BASE_URL = "https://fashionista-db.onrender.com/advertisement";
+const BASE_URL = "https://fashionista-db-8ynj.onrender.com/advertisement";
 
 export const authService_advertisement = {
   updateSingleAdvertiseField: async (id, fieldName, value) => {

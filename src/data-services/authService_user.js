@@ -1,4 +1,4 @@
-const BASE_URL = "https://fashionista-db.onrender.com/users";
+const BASE_URL = "https://fashionista-db-8ynj.onrender.com//users";
 
 const type = "Admin";
 

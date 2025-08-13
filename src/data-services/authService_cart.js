@@ -1,4 +1,4 @@
-const BASE_URL = "https://fashionista-db.onrender.com/cart";
+const BASE_URL = "https://fashionista-db-8ynj.onrender.com/cart";
 
 export const authService_cart = {
   insertCartDetails: async (value, u_id) => {

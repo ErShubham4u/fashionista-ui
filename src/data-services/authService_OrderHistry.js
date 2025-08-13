@@ -1,4 +1,4 @@
-const BASE_URL = "https://fashionista-db.onrender.com/orders";
+const BASE_URL = "https://fashionista-db-8ynj.onrender.com/orders";
 
 export const authService_OrderHistry = {
   insertOrderData: async (OrderData) => {
